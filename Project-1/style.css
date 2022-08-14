@@ -1,0 +1,101 @@
+.container {
+  margin: 40px 160px;
+  font-family: "Orbitron", sans-serif;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  list-style: none;
+  margin-right: 110px;
+}
+.list-item {
+  margin-right: 80px;
+  font-size: 20px;
+}
+.button-group {
+  display: flex;
+  margin-top: 10px;
+}
+.search-icon {
+  margin-top: 8px;
+}
+.nav-button {
+  padding: 10px 40px;
+  border-radius: 12px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.hero-container {
+  display: flex;
+}
+.hero-styling {
+  display: flex;
+}
+.square {
+  margin-top: 185px;
+  margin-right: -20px;
+  z-index: -1;
+}
+.Hero {
+  margin-top: 80px;
+  margin-left: -370px;
+}
+.Logo-png {
+  margin-left: -35px;
+  margin-top: 18px;
+  height: 36px;
+}
+.hero-container-right {
+  margin-top: 110px;
+  text-align: center;
+}
+.hero-heading {
+  font-size: 56px;
+}
+.hero-description {
+  font-size: 12px;
+  width: 550px;
+  margin-left: 90px;
+}
+.btns {
+  margin-top: 70px;
+}
+.button-email {
+  padding: 1px 20px;
+  margin-right: 12px;
+  border-radius: 8px;
+  /* font-size: 16px; */
+  font-size: large;
+  font-family: "Orbitron", sans-serif;
+  color: gray;
+}
+.button-join {
+  padding: 1px 4px;
+  border-radius: 8px;
+  /* font-size: 16x; */
+  font-size: large;
+  font-family: "Orbitron", sans-serif;
+  background-color: black;
+  color: white;
+}
+.contact-heading {
+  margin-top: 90px;
+  font-family: "Poppins";
+  color: gray;
+}
+.icons {
+  /* justify-content: space-between; */
+}
+.globe {
+  position: absolute;
+  margin-left: 143px;
+  margin-top: 38px;
+}
+/* .star {
+  position: absolute;
+  margin-left: 648px;
+  margin-top: 70px;
+} */

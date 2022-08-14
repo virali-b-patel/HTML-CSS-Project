@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.header-section {
+  background-color: gray;
+  height: 112vh;
+  color: white;
+  background-color: #636c79;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 40px 30px 0 100px;
+}
+.logo {
+  height: 40px;
+  /* color: white; */
+}
+.items {
+  display: flex;
+  margin-left: 260px;
+}
+.item {
+  margin-left: 40px;
+  list-style: none;
+  font-size: 18px;
+  color: rgb(223, 223, 223);
+}
+.outline-btn {
+  padding: 10px 50px;
+  font-size: 18px;
+  background-color: #636c79;
+  border: 2px solid rgb(156, 155, 155);
+  color: aliceblue;
+  /* margin-bottom: 10px; */
+  margin-top: -10px;
+}
+.img {
+  height: 80vh;
+  width: 65vh;
+  object-fit: cover;
+}
+.discription-img-1 {
+  display: flex;
+  padding: 20px 150px;
+  justify-content: space-between;
+}
+.discription-1 {
+  width: 50%;
+  margin-top: 50px;
+}
+.discription-1 h1 {
+  font-size: 65px;
+}
+.discription-1 p {
+  margin-top: 30px;
+  width: 80%;
+  color: rgb(205, 204, 204);
+  font-size: 20px;
+  line-height: 35px;
+}
+.buttonIn {
+  width: 430px;
+  height: 100px;
+  position: relative;
+  margin-top: 55px;
+}
+.input-text {
+  padding-left: 55px;
+}
+#enter {
+  margin: 0px;
+  /* padding-left: 40px; */
+  width: 100%;
+  outline: none;
+  height: 60px;
+}
+
+#clear {
+  position: absolute;
+  top: 0;
+  right: -18px;
+  margin-right: -36px;
+  /* z-index: 2; */
+  border: none;
+  padding: 16px 50px;
+  top: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  background-color: #8bb7a2;
+}
+
+.email-logo {
+  height: 22px;
+  position: absolute;
+  width: 22px;
+  margin-top: 22px;
+  margin-left: 20px;
+}
+.main-section {
+  margin: 20px 100px 0 100px;
+}
+
+.business-details {
+}
+.business-details h1 {
+  text-align: center;
+  margin-left: 400px;
+  font-size: 40px;
+  width: 600px;
+  line-height: 50px;
+  margin-top: 100px;
+}
+.ul-num {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.ul-num li {
+  font-size: 40px;
+  list-style: none;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.ul-num p {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+.developer-img {
+  height: 80vh;
+  width: 97%;
+  margin-left: 30px;
+  justify-content: center;
+  object-fit: cover;
+}
+.head-2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  width: 480px;
+  margin-left: 400px;
+}
+.Hero-img {
+  height: 74vh;
+  width: 74vh;
+  object-fit: cover;
+}
+.discription-img {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+.discription {
+  margin-top: 100px;
+  width: 40%;
+}
+.discription h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.discription p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #636c79;
+  /* color: whitesmoke; */
+}
+.discription button {
+  padding: 18px 50px;
+  font-size: large;
+  margin-top: 42px;
+  background-color: #8bb7a2;
+  border: none;
+  color: white;
+}
+.discription-h1-p {
+  display: flex;
+  margin-bottom: 60px;
+  margin-top: 200px;
+  justify-content: space-between;
+}
+.discription-h1 {
+  font-size: 20px;
+  width: 400px;
+}
+.discription-p {
+  font-size: 21px;
+  width: 540px;
+  color: #636c79;
+}
+.team-details {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-team {
+  height: 58vh;
+  width: 48vh;
+  object-fit: cover;
+  /* margin-bottom: 20px; */
+}
+.team-details h3 {
+  margin: 20px 0;
+}
+.team-details p {
+  width: 319px;
+  color: #636c79;
+}
+.btn-more {
+  margin: 55px 0 50px 590px;
+  padding: 18px 50px;
+  font-size: large;
+  background-color: #8bb7a2;
+  border: none;
+  color: white;
+}
+.footer-section {
+  height: 72.5vh;
+  margin-top: 50px;
+  background-color: #10181d;
+  color: white;
+}
+.socialMedia-logo {
+  display: flex;
+  justify-content: space-around;
+  gap: 500px;
+  color: white;
+  margin-bottom: 52px;
+  padding-top: 53px;
+}
+.social-media-icon {
+  display: flex;
+  margin-right: 150px;
+  gap: 10px;
+}
+.hr-tag {
+  margin-left: 157px;
+  margin-right: 120px;
+}
+.link-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 58px;
+}
+.link-details li {
+  list-style: none;
+  line-height: 43px;
+  font-size: 15px;
+  color: #636c79;
+  font-weight: 600;
+  /* padding-bottom: 40px; */
+}
+.link-details ul::first-line {
+  font-size: large;
+  color: white;
+}

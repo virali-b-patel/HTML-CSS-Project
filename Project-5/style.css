@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+.navbar {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 70px;
+}
+.logo {
+  height: 40px;
+  margin-top: 14px;
+  margin-left: 42px;
+}
+.line {
+  margin-left: 65px;
+  border: 0.5px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list {
+  display: flex;
+  margin-left: 90px;
+}
+.list-item {
+  list-style: none;
+  margin-right: 40px;
+  margin-top: 27px;
+}
+.button-small {
+  margin-left: 540px;
+  margin-top: 18px;
+  padding: 8px 25px;
+  border-radius: 8px;
+  background-color: #ba0cc5;
+  color: white;
+}
+.hero {
+  background-image: url("./assets/bg.png");
+  height: 643px;
+  text-align: center;
+  color: white;
+}
+.hero-heading {
+  font-size: 70px;
+  /* width: 450px; */
+  padding-top: 160px;
+  margin-left: 420px;
+  margin-right: 420px;
+}
+.hero-description {
+  font-size: 30px;
+  padding-top: 5px;
+}
+.button-large {
+  margin-top: 50px;
+  padding: 20px 60px;
+  border-radius: 8px;
+  background-color: #ba0cc5;
+  color: white;
+  border: none;
+  font-size: 30px;
+}
+.arrow {
+  border: solid rgb(255, 251, 251);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-left: 12px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
